@@ -19,7 +19,7 @@ export default function Meet() {
             <div className="absolute text-center top-40">
                 <div className='text-4xl font-bold text-white'>Remember ? </div>
                 <div className='text-4xl font-bold text-white mt-5'> 📅 15th October, 2022 </div>
-                <div className='text-4xl font-bold text-white mt-5'> It was {years} year {days} ago 🙊 </div>
+                <div className='text-4xl font-bold text-white mt-5'> It was {years} year {days} days ago 🙊 </div>
             </div>
         </div>
     )
