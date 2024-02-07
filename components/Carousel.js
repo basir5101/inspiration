@@ -17,7 +17,7 @@ export default function Carousel() {
                 items.map((item, i) => (
                     <div key={i} className="carousel-item relative w-full">
                         <Image width={1080} height={740} src={item.img} className='object-cover min-w-full min-h-screen' alt="Tailwind CSS Carousel component" />
-                        <div className='absolute top-10 right-10 text-right text-4xl lg:text-9xl font-bold text-secondary'>
+                        <div className='absolute top-10 right-10 text-right text-5xl lg:text-9xl font-bold text-secondary'>
                             {item.title}
                         </div>
                     </div>
