@@ -3,6 +3,7 @@ import Facebook from "@/components/Facebook";
 import Hand from "@/components/Hand";
 import Heading from "@/components/Heading";
 import Meet from "@/components/Meet";
+import OrderNow from "@/components/OrderNow";
 import Promise from "@/components/Promise";
 import Wait from "@/components/Wait";
 
@@ -10,6 +11,7 @@ export default function Home() {
   return (
     <>
       <Carousel />
+      <OrderNow />
       <Facebook />
       <div className="px-10">
         <Wait />
