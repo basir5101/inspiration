@@ -2,6 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
+
+
+.typing{
+    overflow: hidden;
+    text-wrap: nowrap;
+    animation: type 3s linear infinite;
+}
+
+/* .typings {
+    animation: type 1s infinite alternate-reverse ;
+} */
+
+@keyframes hidden {
+    0% {
+            opacity: 0;
+            width: 0;
+            left: -9999;
+            top: 777;
+        }
+    
+        50% {
+            display: hidden;
+        }
+    
+        100% {
+           opacity: 1;
+           width: 100%;
+           left: 0;
+           top: 0;
+        }
+}
+
+@keyframes type {
+    0% {
+        width: 0px;
+    }
+    10% {
+        width: 3px;
+        }
+    50%{
+        width: 200px;
+    }
+    100% {
+        width: 100%;
+    }
 }
